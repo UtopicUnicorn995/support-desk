@@ -20,7 +20,7 @@ const getNotes = asyncHandler(async (req, res) => {
   res.status(200).json(notes);
 });
 
-// @desc    Create notes for a ticket
+// @desc    Create notes for a tickets
 // @route   POST /api/tickets/:ticketId/notes
 // @access  Private
 const addNote = asyncHandler(async (req, res) => {
