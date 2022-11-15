@@ -15,11 +15,11 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-//creating route
-app.get("/", (req, res) => {
-  //   res.send("Hello");
-  res.json({ message: "Welcome to support desk API" });
-});
+// //creating route
+// app.get("/", (req, res) => {
+//   //   res.send("Hello");
+//   res.json({ message: "Welcome to support desk API" });
+// });
 
 // Routes
 // http://localhost:5000/api/users/'userRoute end points'
